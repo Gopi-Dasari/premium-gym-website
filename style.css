@@ -1,0 +1,145 @@
+/* Google Font */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+    background:#0B0B0B;
+
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+/* Container */
+
+.container{
+
+    width:90%;
+    max-width:1280px;
+    margin:auto;
+
+}
+
+/* Header */
+
+.header{
+
+    width:100%;
+    position:sticky;
+    top:0;
+    left:0;
+    background:#111;
+    z-index:999;
+    border-bottom:1px solid #1e1e1e;
+
+}
+
+/* Navbar */
+
+.navbar{
+
+    height:80px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+}
+
+/* Logo */
+
+.logo{
+
+    font-size:2rem;
+    color:#fff;
+    font-weight:800;
+    letter-spacing:1px;
+
+}
+
+.logo span{
+
+    color:#ff3c00;
+
+}
+
+/* Nav */
+
+.nav-links{
+
+    display:flex;
+    gap:35px;
+
+}
+
+.nav-links a{
+
+    color:#fff;
+    font-size:16px;
+    font-weight:500;
+    transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:#ff3c00;
+
+}
+
+/* Button */
+
+.btn{
+
+    padding:13px 30px;
+
+    background:#ff3c00;
+
+    color:#fff;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    background:#fff;
+
+    color:#111;
+
+}
+
+/* Menu */
+
+.menu-btn{
+
+    display:none;
+
+    color:#fff;
+
+    font-size:30px;
+
+    cursor:pointer;
+
+}
